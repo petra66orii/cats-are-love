@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: greenyellow;
+}
+
+/* Main body */
+body {
+    background-color: paleturquoise;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Footer */
+footer {
+    background-color: pink;
+}
+
+/*Main section*/
+main {
+    flex: 1 0 auto;
+    margin-top: 37px; 
+}
