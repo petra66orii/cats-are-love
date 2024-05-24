@@ -9,21 +9,52 @@
 
 /* Header */
 header {
-    background-color: greenyellow;
+    background-color: #9F532A;
+    z-index: 70;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: #ED9669;
+}
+
+header i {
+    color: #ED9669;
 }
 
 /* Main body */
 body {
-    background-color: paleturquoise;
+    background-color:#00C9AA;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Lora', serif;
+    color: #9F532A;
+}
+
+h1, h2, h3 {
+    color: #ED9669;
+    font-family: 'Vollkorn', serif;
 }
 
 /* Footer */
 footer {
-    background-color: pink;
+    background-color: #ED9669;
+}
+
+#social-networks {
+    text-align: center;
+    font-size: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-networks i {
+    color:#9F532A;
 }
 
 /*Main section*/
