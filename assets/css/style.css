@@ -10,7 +10,7 @@
 /* Header */
 header {
     background-color: #9F532A;
-    z-index: 70;
+    z-index: 999;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,6 +23,38 @@ header a {
 
 header i {
     color: #ED9669;
+}
+
+/* Navbar */
+nav {
+    position: absolute;
+    display: none;
+    background-color: #9F532A;
+    width: 30%;
+    top: 44px;
+    right: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000000;
+}
+
+nav li {
+    text-decoration: none;
+}
+
+#nav-bars:checked~nav {
+    display: block;
+}
+
+#nav-bars {
+    display: none;
+}
+
+.nav-bars-label {
+    font-size: 2rem;
+}
+
+nav li:hover {
+    background-color: #5c3018;
 }
 
 /* Main body */
