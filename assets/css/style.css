@@ -10,7 +10,7 @@
 /* Header */
 header {
     position: fixed;
-    background-color: #9F532A;
+    background-color: #32373B;
     padding: 0 1rem;
     z-index: 999;
     width: 100%;
@@ -22,13 +22,13 @@ header {
 
 header a {
     text-decoration: none;
-    color: #ED9669;
+    color: #F4D6CC;
     margin: 10px;
 }
 
 header i {
     margin: 10px 5px;
-    color: #ED9669;
+    color: #F4D6CC;
 
 }
 
@@ -36,13 +36,13 @@ header i {
 #menu {
     position: absolute;
     display: none;
-    background-color: #9F532A;
+    background-color: #32373B;
     width: 30%;
     height: fit-content;
     top: 72px;
     right: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #6d2c2c;
+    box-shadow: 0 2px 2px #000000;
     font-size: 110%;
 }
 
@@ -70,7 +70,7 @@ header i {
 
 /* Main body */
 body {
-    background-color:#00C9AA;
+    background-color: #F4D6CC;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -79,13 +79,13 @@ body {
 }
 
 h1, h2, h3 {
-    color: #ED9669;
+    color: #F4D6CC;
     font-family: 'Vollkorn', serif;
 }
 
 /* Footer */
 footer {
-    background-color: #ED9669;
+    background-color: #4A5859;
 }
 
 #social-networks {
@@ -97,7 +97,7 @@ footer {
 }
 
 #social-networks i {
-    color:#9F532A;
+    color:#F4D6CC;
 }
 
 /*Main section*/
