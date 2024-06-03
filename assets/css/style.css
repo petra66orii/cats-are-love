@@ -9,36 +9,49 @@
 
 /* Header */
 header {
+    position: fixed;
     background-color: #9F532A;
+    padding: 0 1rem;
     z-index: 999;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Vollkorn', 'Times New Roman', Times, serif;
 }
 
 header a {
     text-decoration: none;
     color: #ED9669;
+    margin: 10px;
 }
 
 header i {
+    margin: 10px 5px;
     color: #ED9669;
+
 }
 
-/* Navbar */
-nav {
+/* Navbar with dropdown toggle */
+#menu {
     position: absolute;
     display: none;
     background-color: #9F532A;
     width: 30%;
-    top: 44px;
+    height: fit-content;
+    top: 72px;
     right: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #000000;
+    box-shadow: 0 2px 2px #6d2c2c;
+    font-size: 110%;
 }
 
-nav li {
-    text-decoration: none;
+#menu li {
+    list-style-type: none;
+}
+
+#menu li:hover {
+    background-color: #5c3018;
 }
 
 #nav-bars:checked~nav {
@@ -51,11 +64,9 @@ nav li {
 
 .nav-bars-label {
     font-size: 2rem;
+    margin: 10px;
 }
 
-nav li:hover {
-    background-color: #5c3018;
-}
 
 /* Main body */
 body {
@@ -63,7 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', 'Times New Roman', Times, serif;
     color: #9F532A;
 }
 
