@@ -10,15 +10,17 @@ This website is targeted at people who are on the lookout for a cat to adopt, wh
 
 ## User Stories
 
-As an animal lover, I am looking for a website that can offer options to pick a forever friend, as well as guidance towards the best care I can offer to my new pet. 
+* As an animal lover, I am looking for a website that can offer options to pick a forever friend, as well as guidance towards the best care I can offer to my new pet. 
 
-## User goals
+* As a visitor, I am looking for a simple, yet resourceful website where I can learn more about cats. This includes a user-friendly design and a contact form in order to find out more information.
+
+## User Goals
 
 1. Easy and responsive website helps the customer navigate the adoption process no matter what devices they're using by using media queries and flexbox containers
 2. The page is filled with useful information the customer would need before taking this important step for both them and the cats  
 3. Customers can always get in touch with the shelter for further inquiries using the form in the "Contact" page
 
-## Business goals
+## Business Goals
 
 1. To help households and people adopt a loving pet
 2. Raise awareness on animal abandonment and encourage adopting instead of buying a pet
@@ -32,7 +34,7 @@ The color scheme is a fairly simple one, as the main focus should be on the cats
 
 ![Color scheme for the project, the colors are black, dark grey and pale pink](assets/images/palette.png)
 
-### Fonts
+### Typography
 
 For the fonts I've chosen Lora and Vollkorn for an elegant feel to the webpage. Below there is a screenshot of both fonts:
 
@@ -44,17 +46,50 @@ For the fonts I've chosen Lora and Vollkorn for an elegant feel to the webpage. 
 
 ![font styles - Vollkorn](assets/images/vollkorn-font.jpg)
 
+### Imagery
+
+All the images were taken from pexels.com. The images are impactful in order to deliver the message about the importance of adoption and also the sad reality that comes with animal abandonment/mistreatment.
+
+### Wireframes
+
+I used Balsamiq to create the wireframes.
+
+#### Home Page
+![Index page wireframe - Desktop](assets/images/wire-index-desktop.png)
+
+#### Services Page
+![Services page wireframe - Desktop](assets/images/wire-services-desktop.png)
+
+#### Contact Page
+![Contact page wireframe - Desktop](assets/images/wire-contact-desktop.png)
+
+#### Mobile view
+![Index page wireframe - Mobile](assets/images/wire-index-mobile.png)
+![Services page wireframe - Mobile](assets/images/wire-services-mobile.png)
+![Contact page wireframe - Mobile](assets/images/wire-contact-mobile.png)
+
 ## Features
 
 ### General features on all pages
 
 #### Navigation Bar
 
-A navigation bar is featured on all three pages for ease of use and accesibility. There are two different versions of the navbar depending on the size of the screen, hence adding responsiveness to the webpage.
+A navigation bar is featured on all three pages for ease of use and accesibility. There are two different versions of the navbar depending on whether you're navigating the website on mobile or desktop, hence adding responsiveness to the webpage.
+
+Desktop navigaion bar
+![Navbar desktop](assets/images/desktop-navbar.png)
+
+Mobile navigation bar
+![Navbar mobile](assets/images/navbar-mobile.JPEG)
+
+Screenshot of the opened navigation bar
+![Open navbar mobile](assets/images/open-navbar-mobile.JPEG)
 
 #### Footer Links
 
 There are links to social media websites included on every page, the icons were taken from Font Awesome and I've attributed the same pale pink color that is present on the body of the website for added aesthetics.
+
+![Footer links](assets/images/footer-links.jpg)
 
 ## Technologies Used
 
@@ -63,6 +98,7 @@ There are links to social media websites included on every page, the icons were 
 * HTML5 - The main structure of the website was created using HTML5
 * CSS - This was used in order to style the webpage in way that is pleasing to the eye
 * Python - Python3 was used to preview the website on a local http server
+* Balsamiq - To create the wireframes
 
 ## Languages Used
 
@@ -76,6 +112,7 @@ Testing was done on the following devices:
 #### Laptop
 * HP ProBook
 * Acer Aspire E15
+* Asus GL702Z
 
 #### Mobile Devices
 * iPhone 11
@@ -84,7 +121,7 @@ Testing was done on the following devices:
 
 ### Bugs
 
-* The first bug I've encountered was that the footer wasn't fixed to the bottom of the webpage, and a line would show under the footer. 
+* The first bug I've encountered was that the footer wasn't fixed to the bottom of the webpage, and a line would show under the footer. Note that since the bug was discovered and fixed early, the screenshots shown don't represent the final product. 
 
 
 ![Screenshot of webpage showing footer bug on mobile](assets/images/bug1-footer-mobile.png)
