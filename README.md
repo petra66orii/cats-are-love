@@ -69,6 +69,27 @@ There are links to social media websites included on every page, the icons were 
 * HTML
 * CSS
 
+## Testing
+
+Testing was done on the following devices: 
+
+#### Laptop
+* HP ProBook
+* Acer Aspire E15
+
+#### Mobile Devices
+* iPhone 11
+* Samsung Galaxy Flip 5
+* Samsung Galaxy S10
+
+### Bugs
+
+* The first bug I've encountered was that the footer wasn't fixed to the bottom of the webpage, and a line would show under the footer. 
+![Screenshot of webpage showing footer bug on mobile](assets/images/bug1-footer-mobile.png)
+![Screenshot of webpage showing footer bug on desktop](assets/images/bug1-footer-desktop.png)
+
+This was an easy fix, as I only needed to set the position to 'fixed' and set the bottom to 0.
+
 ## Credits
 
 ### Code Used
