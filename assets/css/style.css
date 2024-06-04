@@ -69,6 +69,10 @@ header i {
     margin: 10px;
 }
 
+.active {
+    border-bottom: 1px solid #F4D6CC;
+}
+
 
 /* Body general styles */
 body {
