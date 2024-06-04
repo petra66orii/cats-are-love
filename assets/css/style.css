@@ -76,7 +76,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Lora', 'Times New Roman', Times, serif;
-    color: #9F532A;
+    color: #32373B;
 }
 
 h1, h2, h3 {
@@ -87,14 +87,16 @@ h1, h2, h3 {
 /*Main section*/
 main {
     flex: 1 0 auto;
-    margin-top: 37px;
+    margin-top: 72px;
 }
 
 /* Footer */
 footer {
     background-color: #4A5859;
-    height: 40px;
+    height: 42px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 #social-networks {
@@ -113,6 +115,8 @@ footer {
 /* Media query for screens smaller than 343 px*/
 
 @media screen and (max-width: 343px) {
+
+    /* Header and navbar */
     header a {
         font-size: 80%;
         margin: 0;
@@ -132,6 +136,8 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    /* Header and navbar */
+
     header {
         height: 100px;
         width: 100%;
@@ -140,6 +146,7 @@ footer {
     #logo {
         font-size: 150%;
         padding: 15px 5px;
+        text-align: center;
     }
 
     #menu {
@@ -159,4 +166,10 @@ footer {
     .nav-bars-label {
         display: none;
     }
+    /* Main content */
+
+    main {
+        margin-top: 100px;
+    }
+    
 }
