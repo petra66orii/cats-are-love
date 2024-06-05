@@ -21,6 +21,7 @@ body {
 h1 {
     color: #F4D6CC;
     font-family: 'Vollkorn', serif;
+    font-size: 200%;
 }
 
 h2, h3 {
@@ -62,7 +63,7 @@ header i {
     height: fit-content;
     top: 72px;
     right: 0;
-    padding: 0 1rem;
+    padding: 5px;
     box-shadow: 0 2px 2px #000000;
     font-size: 110%;
     text-align: center;
@@ -101,28 +102,52 @@ header i {
 /*Main section*/
 main {
     flex: 1 0 auto;
+    /* Add margin to the top and bottom so the content doesn't get covered by either of them */
     margin-top: 72px;
     margin-bottom: 42px;
+    /* Enable flex properties */
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border: 1px solid #32373B;
+    margin: 5px 0;
 }
 
 #hero-image {
     background: url('../images/hero-image.jpg') no-repeat center center / cover;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 600px;
-}
-
-#cover-text {
-    text-align: right;
-    font-size: 150%;
-    z-index: 10;
-    top: 0;
+    position: relative;
 }
 
 #about-us {
     text-align: center;
-    font-size: 90%;
-    background-color: rgba(255, 255, 255, .5);
+    margin: 20px 10px;
+}
+
+#cover-text {
+    text-align: center;
+    text-shadow: 2px 2px 5px #df2792;
+    margin: 10px 5px 15px;
+    font-size: 170%;
+    z-index: 10;
+    border: 5px;
+    padding: 10px 5px 15px;
+}
+
+h3 {
+    font-size: 130%;
+    text-align: left;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.about-us-text {
+    margin: 10px;
+    padding: 10px 5px;
 }
 
 /* Footer */
@@ -163,13 +188,20 @@ footer {
     }
 
     #menu {
-        margin-top: 64px;
+        top: 64px;
+        padding: 5px;
     }
 
     /* Main section */
 
     main {
         margin-top: 64px;
+    }
+
+    /* Hero section */
+
+    #cover-text {
+        font-size: 140%;
     }
 }
 
@@ -207,6 +239,7 @@ footer {
     .nav-bars-label {
         display: none;
     }
+    
     /* Main content */
 
     main {
