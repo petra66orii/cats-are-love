@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     font-family: 'Lora', 'Times New Roman', Times, serif;
     color: #32373B;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -115,6 +116,7 @@ hr {
     margin: 5px 0;
 }
 
+/* Hero section */
 #hero-image {
     background: url('../images/hero-image.jpg') no-repeat center center / cover;
     background-color: rgba(0, 0, 0, .5);
@@ -133,7 +135,6 @@ hr {
     text-shadow: 2px 2px 5px #df2792;
     margin: 10px 5px 15px;
     font-size: 170%;
-    z-index: 10;
     border: 5px;
     padding: 10px 5px 15px;
 }
@@ -143,12 +144,37 @@ h3 {
     text-align: left;
     text-decoration: underline;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .about-us-text {
     margin: 10px;
     padding: 10px 5px;
 }
+
+/* Cats section */
+#our-cats {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+#images img {
+    max-width: 100%;
+    height: auto;
+}
+
+#images figure {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #242323;
+    color: #F4D6CC;
+    margin: 15px;
+    border: 2px solid #242323;
+    border-radius: 8px;
+    padding: 15px;
+}
+
 
 /* Footer */
 footer {
@@ -246,4 +272,39 @@ footer {
         margin-top: 100px;
     }
     
+    /* Hero section */
+
+    #hero-image {
+        width: 50%;
+        float: left;
+    }
+
+    #about-us {
+        margin: 15px;
+        
+    }
+
+    /* Cats section */
+
+    /*#images img {
+        size: 80%;
+    }*/
+
+    #images figure {
+        float: left;
+        max-width: 50%; 
+        max-height: auto;
+        row-gap: 2;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .cats-intro figcaption {
+        position: absolute;
+        display: table-caption;
+        align-self: flex-end;
+        padding: auto;
+        margin: 15px;
+    }
 }
