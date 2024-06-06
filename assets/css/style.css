@@ -163,6 +163,7 @@ h3 {
 #images img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 #images figure {
@@ -182,6 +183,7 @@ h3 {
 .client-review img {
     width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 #testimonials div {
