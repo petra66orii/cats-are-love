@@ -218,7 +218,7 @@ h3 {
     height: auto;
     text-align: center;
     padding: 20px;
-    margin: auto;
+    margin: 55px 0;
 }
 
 /* Services description section */
@@ -239,7 +239,15 @@ tr:hover {
     background-color: #b9b2b2;
 }
 
-
+#description-services div {
+    background-color: #f7f3ef;
+    margin: 20px;
+    border: 2px solid #f7f3ef;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
 
 /* Gallery section */
 
