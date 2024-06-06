@@ -25,7 +25,8 @@ h1 {
     font-size: 200%;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #32373B;
     font-family: 'Vollkorn', serif;
 }
@@ -198,6 +199,20 @@ h3 {
     padding: 15px;
 }
 
+/* Services Page */
+
+.cover img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#gallery  img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+}
 
 /* Footer */
 footer {
@@ -218,7 +233,7 @@ footer {
 }
 
 #social-networks i {
-    color:#F4D6CC;
+    color: #F4D6CC;
 }
 
 /* Media query for screens smaller than 343 px*/
@@ -286,17 +301,17 @@ footer {
     #pages {
         display: flex;
     }
- 
+
     .nav-bars-label {
         display: none;
     }
-    
+
     /* Main content */
 
     main {
         margin-top: 100px;
     }
-    
+
     /* Hero section */
 
     #hero-image {
