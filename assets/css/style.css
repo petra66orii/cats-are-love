@@ -223,6 +223,22 @@ h3 {
 
 /* Services description section */
 
+table {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #32373B;
+    margin: auto;
+}
+
+th, td {
+    border-bottom: 1px solid #32373B;
+}
+
+tr:hover {
+    background-color: #b9b2b2;
+}
+
 
 
 /* Gallery section */
