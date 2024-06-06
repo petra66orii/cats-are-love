@@ -168,7 +168,7 @@ h3 {
     font-style: italic;
     font-weight: bold;
     background-color: #242323;
-    color: #F4D6CC;
+    color: #b9b2b2;
     margin: 15px;
     border: 2px solid #242323;
     border-radius: 8px;
@@ -286,25 +286,19 @@ footer {
 
     /* Cats section */
 
-    /*#images img {
-        size: 80%;
-    }*/
-
-    #images figure {
-        float: left;
-        max-width: 50%; 
-        max-height: auto;
-        row-gap: 2;
+    .cats-intro {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
-        position: relative;
+        width: 30%;
+        margin: 20px;
+        border: 20px;
+        padding: 20px;
+        float: left;
     }
 
-    .cats-intro figcaption {
-        position: absolute;
-        display: table-caption;
-        align-self: flex-end;
-        padding: auto;
-        margin: 15px;
+    .cats-intro img {
+        width: 100%;
+        height: auto;
     }
 }
