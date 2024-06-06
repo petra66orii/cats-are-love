@@ -141,7 +141,7 @@ hr {
 
 h3 {
     font-size: 130%;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     padding: 5px;
     margin-bottom: 15px;
@@ -150,6 +150,8 @@ h3 {
 .about-us-text {
     margin: 10px;
     padding: 10px 5px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* Cats section */
@@ -243,8 +245,9 @@ footer {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 170%;
         padding: 15px 5px;
+        margin-bottom: 20px;
         text-align: center;
     }
 
@@ -281,7 +284,30 @@ footer {
 
     #about-us {
         margin: 15px;
-        
+    }
+
+    #cover-text {
+        font-size: 230%;
+    }
+
+    h3 {
+        font-size: 190%;
+    }
+
+    .about-us-text {
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 120%;
+        background-color: #F4D6CC;
+        color: #242323;
+        margin: 15px 30px;
+        border: 2px solid #F4D6CC;
+        border-radius: 8px;
+        padding: 10px 50px;
+        display: flex;
+        align-items: center;
+
     }
 
     /* Cats section */
