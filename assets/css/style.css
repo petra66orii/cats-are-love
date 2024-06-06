@@ -114,7 +114,7 @@ main {
 
 hr {
     border: 1px solid #32373B;
-    margin: 5px 0;
+    margin-top: 15px;
 }
 
 /* Hero section */
@@ -126,15 +126,13 @@ hr {
     position: relative;
 }
 
-#about-us {
-    text-align: center;
-    margin: 20px 10px;
-}
-
 #cover-text {
     text-align: center;
     text-shadow: 2px 2px 5px #df2792;
-    margin: 10px 5px 15px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #f7f3ef;
+    z-index: 99;
+    margin-bottom: 15px;
     font-size: 170%;
     border: 5px;
     padding: 10px 5px 15px;
@@ -148,8 +146,15 @@ h3 {
     margin-bottom: 15px;
 }
 
-.about-us-text {
-    margin: 10px;
+.about-us-title {
+    background-color: rgba(0, 0, 0, .5);
+    color: #f7f3ef;
+}
+
+.about-us {
+    background-color: rgba(0, 0, 0, .5);
+    color: #f7f3ef;
+    margin: 0;
     padding: 10px 5px;
     font-weight: bold;
     font-style: italic;
@@ -180,7 +185,6 @@ h3 {
 }
 
 /* Testimonials section */
-
 .client-review img {
     width: 100%;
     height: auto;
@@ -200,7 +204,6 @@ h3 {
 }
 
 /* Services Page */
-
 .cover img {
     width: 100%;
     height: auto;
@@ -222,7 +225,6 @@ h3 {
 }
 
 /* Services description section */
-
 table {
     width: 100%;
     text-align: center;
@@ -231,7 +233,8 @@ table {
     margin: auto;
 }
 
-th, td {
+th,
+td {
     border-bottom: 1px solid #32373B;
 }
 
@@ -250,7 +253,6 @@ tr:hover {
 }
 
 /* Gallery section */
-
 #gallery {
     display: flex;
     flex-flow: row wrap;
@@ -309,15 +311,18 @@ footer {
     }
 
     /* Main section */
-
     main {
         margin-top: 64px;
     }
 
     /* Hero section */
-
     #cover-text {
         font-size: 140%;
+    }
+
+    /* Services page */
+    #intro-services {
+        margin: 23px 0;
     }
 }
 
@@ -326,7 +331,6 @@ footer {
 @media screen and (min-width: 768px) {
 
     /* Header and navbar */
-
     header {
         height: 100px;
         width: 100%;
@@ -359,16 +363,13 @@ footer {
     }
 
     /* Main content */
-
     main {
         margin-top: 100px;
     }
 
     /* Hero section */
-
     #hero-image {
-        width: 50%;
-        float: left;
+        width: 100%;
     }
 
     #about-us {
@@ -379,28 +380,32 @@ footer {
         font-size: 230%;
     }
 
-    h3 {
+    .about-us-title {
         font-size: 190%;
+        background-color: rgba(0, 0, 0, .5);
+        color: #f7f3ef;
     }
 
-    .about-us-text {
+    .about-us {
         text-align: center;
         font-style: italic;
         font-weight: bold;
-        font-size: 100%;
-        background-color: #F4D6CC;
-        color: #242323;
-        margin: 15px 30px;
-        border: 2px solid #F4D6CC;
-        border-radius: 8px;
+        font-size: 130%;
+        background-color: rgba(0, 0, 0, .5);
+        color: #f7f3ef;
+        margin: 15px 0;
+        border: 2px;
         padding: 10px 50px;
         display: flex;
         align-items: center;
 
     }
 
-    /* Cats section */
+    h3 {
+        font-size: 190%;
+    }
 
+    /* Cats section */
     .cats-intro {
         display: flex;
         flex-wrap: wrap;
@@ -432,6 +437,12 @@ footer {
     .client-review img {
         width: 100%;
         height: auto;
+    }
+
+    /* Services page */
+    #intro-services {
+        font-size: 300%;
+        margin: 110px 0;
     }
 
 }
