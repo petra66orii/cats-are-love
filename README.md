@@ -30,9 +30,9 @@ This website is targeted at people who are on the lookout for a cat to adopt, wh
 
 ### Color Scheme
 
-The color scheme is a fairly simple one, as the main focus should be on the cats and on the information regarding our services and potential pets. The pale pink is used on the title and social network icons in order to contrast the dark background, whereas the body of the website itself is pale pink as the website contains many images of cats; this is so the website isn't overloaded with content.
+The color scheme is a fairly simple one, as the main focus should be on the cats and on the information regarding our services and potential pets. The white is used on the title and social network icons in order to contrast the dark background, whereas the body of the website itself is pale pink as the website contains many images of cats; this is so the website isn't overloaded with content.
 
-![Color scheme for the project, the colors are black, dark grey and pale pink](assets/images/palette.png)
+![Color scheme for the project, the colors are black, dark grey, pale pink and white](assets/images/palette.png)
 
 ### Typography
 

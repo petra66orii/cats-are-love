@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #F4D6CC;
+    color: #f7f3ef;
     font-family: 'Vollkorn', serif;
     font-size: 200%;
 }
@@ -46,13 +46,13 @@ header {
 
 header a {
     text-decoration: none;
-    color: #F4D6CC;
+    color: #f7f3ef;
     margin: 10px;
 }
 
 header i {
     margin: 10px 5px;
-    color: #F4D6CC;
+    color: #f7f3ef;
 
 }
 
@@ -94,7 +94,7 @@ header i {
 }
 
 .active {
-    border: 1px solid #F4D6CC;
+    border: 1px solid #f7f3ef;
     border-radius: 50%;
     padding: 0 20px;
     text-align: left;
@@ -172,7 +172,7 @@ h3 {
     font-style: italic;
     font-weight: bold;
     background-color: #242323;
-    color: #b9b2b2;
+    color: #f7f3ef;
     margin: 10px;
     border: 2px solid #242323;
     border-radius: 8px;
@@ -192,7 +192,7 @@ h3 {
     font-style: italic;
     font-weight: bold;
     background-color: #242323;
-    color: #b9b2b2;
+    color: #f7f3ef;
     margin: 10px;
     border: 2px solid #242323;
     border-radius: 8px;
@@ -209,7 +209,7 @@ h3 {
 
 #intro-services {
     background-color: rgba(0, 0, 0, .5);
-    color: #ffffff;
+    color: #f7f3ef;
     font-size: 150%;
     font-weight: lighter;
     position: absolute;
@@ -226,7 +226,7 @@ h3 {
 table {
     width: 100%;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f7f3ef;
     border: 2px solid #32373B;
     margin: auto;
 }
@@ -277,7 +277,7 @@ footer {
 }
 
 #social-networks i {
-    color: #F4D6CC;
+    color: #f7f3ef;
 }
 
 /* Media query for screens smaller than 343 px*/
