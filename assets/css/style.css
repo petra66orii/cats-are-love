@@ -269,6 +269,22 @@ tr:hover {
     margin: 10px 0;
 }
 
+/* Contact page */
+
+#contact {
+    background: url("../images/contact-image.jpg");
+    background-size: cover;
+    background-position: 75%;
+    /*width: 100%;
+    height: auto;*/
+}
+
+#contact-form {
+    background-color: rgba(0, 0, 0, .5);
+    color: #f7f3ef;
+    padding: 20px;
+}
+
 /* Footer */
 footer {
     background-color: #4A5859;
