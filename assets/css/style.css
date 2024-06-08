@@ -391,7 +391,7 @@ footer {
         font-size: 130%;
         background-color: rgba(0, 0, 0, .5);
         color: #f7f3ef;
-        margin: /*15px*/ 0;
+        margin: 0;
         border: 2px;
         padding: 10px 50px;
         display: flex;
