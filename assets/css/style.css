@@ -114,7 +114,7 @@ main {
 
 hr {
     border: 1px solid #32373B;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 /* Hero section */
@@ -275,16 +275,40 @@ tr:hover {
     background: url("../images/contact-image.jpg");
     background-size: cover;
     background-position: 75%;
-    /*width: 100%;
-    height: auto;*/
 }
 
 #contact-form {
     background-color: rgba(0, 0, 0, .5);
     color: #f7f3ef;
+    font-size: 80%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
 }
 
+#contact-form > h2 {
+    color: #f7f3ef;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: xx-large;
+}
+
+#contact-address {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+#contact-address > h3 {
+    font-size: 100%;
+    margin: 0;
+}
+
+#contact-address > p {
+    font-size: 90%;
+}
 /* Footer */
 footer {
     background-color: #4A5859;
