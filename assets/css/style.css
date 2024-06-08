@@ -149,6 +149,7 @@ h3 {
 .about-us-title {
     background-color: rgba(0, 0, 0, .5);
     color: #f7f3ef;
+    margin: 0;
 }
 
 .about-us {
@@ -372,10 +373,6 @@ footer {
         width: 100%;
     }
 
-    #about-us {
-        margin: 15px;
-    }
-
     #cover-text {
         font-size: 230%;
     }
@@ -384,6 +381,7 @@ footer {
         font-size: 190%;
         background-color: rgba(0, 0, 0, .5);
         color: #f7f3ef;
+        margin-top: 40px;
     }
 
     .about-us {
@@ -393,7 +391,7 @@ footer {
         font-size: 130%;
         background-color: rgba(0, 0, 0, .5);
         color: #f7f3ef;
-        margin: 15px 0;
+        margin: /*15px*/ 0;
         border: 2px;
         padding: 10px 50px;
         display: flex;
@@ -414,6 +412,7 @@ footer {
         margin: 0;
         border: 15px;
         padding: 15px;
+        /* To align the boxes side by side I used float from W3Schools website */
         float: left;
     }
 
@@ -425,12 +424,12 @@ footer {
     /* Testimonials section */
     .client-review {
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-flow: row wrap;
         width: 30%;
         margin: 20px;
         border: 20px;
         padding: 20px;
+        /* To align the boxes side by side I used float from W3Schools website */
         float: left;
     }
 
