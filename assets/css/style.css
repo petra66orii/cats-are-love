@@ -295,6 +295,13 @@ tr:hover {
     font-size: xx-large;
 }
 
+#location-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    align-content: center;
+}
+
 #contact-address {
     text-align: center;
     margin-bottom: 20px;
