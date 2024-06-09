@@ -243,7 +243,7 @@ tr:hover {
     background-color: #b9b2b2;
 }
 
-#description-services div {
+#description-services article {
     background-color: #f7f3ef;
     margin: 20px;
     border: 2px solid #f7f3ef;
