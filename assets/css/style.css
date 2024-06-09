@@ -288,11 +288,38 @@ tr:hover {
     flex-flow: column nowrap;
 }
 
-#contact-form > h2 {
+#contact-form>h2 {
     color: #f7f3ef;
     margin-bottom: 15px;
+    margin-left: 20px;
     text-align: left;
     font-size: xx-large;
+}
+
+input,
+textarea {
+    /*This is for the browser to calculate the size of the box with given border - credits to W3Schools*/
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 8px;
+    /* Remove the default outline to style our own - credits to W3Schools*/
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid #F4D6CC;
+    background-color: #F4D6CC;
+}
+
+.button {
+    width: 50px;
+    border: 2px solid #32373B;
+    background-color: #F4D6CC;
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
 }
 
 #location-info {
@@ -314,14 +341,15 @@ tr:hover {
     padding: 15px;
 }
 
-#contact-address > h3 {
+#contact-address>h3 {
     font-size: 100%;
     margin: 0;
 }
 
-#contact-address > p {
+#contact-address>p {
     font-size: 90%;
 }
+
 /* Footer */
 footer {
     background-color: #4A5859;
@@ -495,6 +523,17 @@ footer {
     #intro-services {
         font-size: 300%;
         margin: 110px 0;
+    }
+
+    /* Contact page*/
+
+    input {
+        width: 400px;
+    }
+
+    textarea {
+        width: 400px;
+        height: auto;
     }
 
 }
