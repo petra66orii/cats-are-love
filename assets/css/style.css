@@ -353,13 +353,22 @@ textarea:focus {
     border-radius: 8px;
 }
 
-#contact-address>h3 {
-    font-size: 100%;
-    margin: 0;
-}
+/*#contact-address>.title-contact {
+
+}*/
 
 #contact-address>p {
     font-size: 90%;
+}
+
+.title-contact {
+    font-size: 130%;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    margin-top: 15px;
 }
 
 /* Footer */
