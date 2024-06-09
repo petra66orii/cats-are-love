@@ -297,9 +297,15 @@ tr:hover {
 
 #location-info {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     align-items: stretch;
-    align-content: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+#opening-hours {
+    margin: 20px;
+    flex-basis: 500px;
 }
 
 #contact-address {
