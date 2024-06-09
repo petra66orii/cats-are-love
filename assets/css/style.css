@@ -330,6 +330,11 @@ textarea:focus {
     justify-content: space-evenly;
 }
 
+/* To give the schedule table more room for text */
+#schedule {
+    width: 100%;
+}
+
 #opening-hours {
     margin: 20px;
     flex-basis: 500px;
