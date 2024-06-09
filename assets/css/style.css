@@ -19,6 +19,11 @@ body {
     overflow-x: hidden;
 }
 
+/* Snippet of code from Love Running project */
+.hidden-headings {
+    display: none;
+}
+
 h1 {
     color: #f7f3ef;
     font-family: 'Vollkorn', serif;
