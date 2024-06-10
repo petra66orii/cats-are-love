@@ -124,7 +124,7 @@ hr {
 
 /* Hero section */
 #hero-image {
-    background: url('../images/hero-image.jpg') no-repeat center center / cover;
+    background: url('../images/hero-image.webp') no-repeat center center / cover;
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 600px;
@@ -277,7 +277,7 @@ tr:hover {
 /* Contact page */
 
 #contact {
-    background: url("../images/contact-image.jpg");
+    background: url("../images/contact-image.webp");
     background-size: cover;
     background-position: 75%;
 }
