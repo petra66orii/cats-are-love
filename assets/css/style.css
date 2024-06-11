@@ -19,7 +19,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Snippet of code from Love Running project */
+/* Snippet of code from Love Running project to pass W3C validator*/
 .hidden-headings {
     display: none;
 }
@@ -76,6 +76,7 @@ header i {
     text-align: center;
 }
 
+/*Used to remove the bullets from the list*/
 #menu li {
     list-style-type: none;
 }
@@ -332,6 +333,7 @@ textarea {
     outline: none;
 }
 
+/*This provides a nice aesthetic effect and also to focus on the input - credits to W3Schools*/
 input:focus,
 textarea:focus {
     border: 2px solid #F4D6CC;
@@ -428,11 +430,7 @@ footer {
 @media screen and (max-width: 343px) {
 
     /* Header and navbar */
-    header a {
-        font-size: 80%;
-        margin: 0;
-    }
-
+    header a,
     header i {
         font-size: 80%;
         margin: 0;
@@ -492,6 +490,7 @@ footer {
         display: flex;
     }
 
+    /* Removes the hamburger icon to allow the menu to spread on the header */
     .nav-bars-label {
         display: none;
     }
@@ -609,6 +608,7 @@ footer {
 
 /* Media query to adjust content for large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
+
     /* Services page */
     .cover img {
         /* Used object-fit and object-position to fit image - credits to W3Schools*/
@@ -624,12 +624,12 @@ footer {
     /* Contact page*/
     #contact-form {
         padding-left: 250px;
-        
+
     }
 }
 
 @media screen and (min-width: 1800px) {
     #contact-form {
         padding-left: 600px;
-    }    
+    }
 }
