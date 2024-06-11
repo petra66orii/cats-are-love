@@ -238,7 +238,7 @@ figcaption {
 #intro-services {
     background-color: rgba(0, 0, 0, .5);
     color: #f7f3ef;
-    font-size: 150%;
+    font-size: 130%;
     font-weight: lighter;
     position: absolute;
     z-index: 99;
@@ -246,7 +246,7 @@ figcaption {
     height: auto;
     text-align: center;
     padding: 20px;
-    margin: 55px 0;
+    margin: 30px 0;
 }
 
 /* Services description section */
@@ -280,13 +280,14 @@ tr:hover {
 /* Gallery section */
 #gallery {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin: 10px 5px;
 }
 
 #gallery img {
-    width: 45%;
+    width: 100%;
     height: auto;
     position: relative;
     border-radius: 50%;
@@ -444,7 +445,8 @@ footer {
 
     /* Services page */
     #intro-services {
-        margin: 23px 0;
+        margin: 30px 0;
+        font-size: 100%;
     }
 }
 
@@ -560,9 +562,26 @@ footer {
     }
 
     /* Services page */
+    .cover img {
+        max-height: 400px;
+    }
+
     #intro-services {
-        font-size: 300%;
+        font-size: 200%;
         margin: 110px 0;
+    }
+
+    /* Gallery section */
+
+    #gallery {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #gallery img {
+        width: 45%;
+        height: auto;
+        position: relative
     }
 
     /* Contact page*/
@@ -576,4 +595,18 @@ footer {
         height: auto;
     }
 
+}
+
+/* Media query to adjust content on the services page for large screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+        .cover img {
+            /* Used object-fit and object-position to fit image - credits to W3Schools*/
+            object-fit: cover;
+            object-position: center;
+        }
+
+        #description-services {
+            max-width: 60%;
+            margin: auto;
+        }
 }
