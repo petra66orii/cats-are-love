@@ -1,6 +1,6 @@
 # MeowMatch
 
-Welcome to MeowMatch! This website is aimed at people that are looking for a little fluffy best friend. Cats are known for their independent personalities and health-related benefits. They are gorgeous, little balls of fluff that need love and care. We here at MeowMatch are aiming to provide with each and every one of these little souls a forever home with their family. 
+Welcome to MeowMatch! This website is aimed at people that are looking for a little fluffy best friend. Cats are known for their independent personalities and health-related benefits. They are gorgeous, little balls of fluff that need love and care. We here at MeowMatch are aiming to provide to each and every one of these little souls a forever home with their new family. 
 
 We highly encourage you to contact us, whether you're looking for a playful kitten or a wise older cat, because we believe that every cat deserves a loving and caring home. 
 
@@ -32,7 +32,7 @@ We highly encourage you to contact us, whether you're looking for a playful kitt
        + [Contact Page](#contact-page)
    * [Future Implementations](#future-implementations)
    * [Accessibility](#accessibility)
-4. **[Technoloies Used](#technologies-used)**
+4. **[Technologies Used](#technologies-used)**
 5. **[Languages Used](#languages-used)**
 6. **[Deployment & Local Development](#deployment--local-development)**
    * [Deployment](#deployment)
@@ -50,7 +50,7 @@ We highly encourage you to contact us, whether you're looking for a playful kitt
 
 # Target Audience
 
-This website is targeted at people who are on the lookout for a cat to adopt, whether they are families with children, couples of any age or people that live alone and want a furry and sweet companion. The website is simple to use, it contains testimonies from previous clients that adopted through us, a gallery with the cats that we have in the shelter and a section with a form to apply for adopting a cat.
+This website is targeted at people who are on the lookout for a cat to adopt, whether they are families with children, couples of any age or people that live alone and want a furry and sweet companion. The website is simple to use, it contains testimonies from previous clients that adopted through us, a gallery with some of the cats we have in the shelter and a section with a form where the user can complete and send to the shelter.
 
 ## User Stories
 
@@ -84,11 +84,11 @@ For the fonts I've chosen Lora and Vollkorn for an elegant feel to the webpage. 
 
 ### Lora
 
-![font styles - Lora](assets/images/lora-font.jpg)
+![font styles Lora](assets/images/lora-font.jpg)
 
 ### Vollkorn
 
-![font styles - Vollkorn](assets/images/vollkorn-font.jpg)
+![font styles Vollkorn](assets/images/vollkorn-font.jpg)
 
 ## Imagery
 
@@ -96,13 +96,13 @@ All the images were taken from pexels.com. The images are impactful in order to 
 
 ## Wireframes
 
-I used Balsamiq to create the wireframes.
+I used Balsamiq to create the wireframes. These wireframes were designed before the actual construction of the website. While building the website, I would see a better way to implement information and graphics and apply those instead. The wireframes were very helpful to get an initial idea of how I'd want the webpage to look like, but have since strayed for a better user-friendly website. 
 
 ### Home Page
-![Index page wireframe - Desktop](assets/images/wire-index-desktop.png)
+![Index page wireframe Desktop](assets/images/wire-index-desktop.png)
 
 ### Services Page
-![Services page wireframe - Desktop](assets/images/wire-services-desktop.png)
+![Services page wireframe Desktop](assets/images/wire-services-desktop.png)
 
 ### Contact Page
 ![Contact page wireframe - Desktop](assets/images/wire-contact-desktop.png)
@@ -118,7 +118,7 @@ I used Balsamiq to create the wireframes.
 
 ### Navigation Bar
 
-A navigation bar is featured on all three pages for ease of use and accesibility. There are two different versions of the navbar depending on whether you're navigating the website on mobile or desktop, hence adding responsiveness to the webpage.
+A navigation bar is featured on all three pages for ease of use and accessibility. There are two different versions of the navbar depending on whether you're navigating the website on mobile or desktop, hence adding responsiveness to the webpage.
 
 Desktop navigation bar
 
@@ -134,7 +134,7 @@ Screenshot of the opened navigation bar
 
 ### Footer Links
 
-There are links to social media websites included on every page, the icons were taken from Font Awesome and I've attributed the same pale pink color that is present on the body of the website for added aesthetics.
+There are links to social media websites included on every page, the icons were taken from Font Awesome and I've attributed them the white color for a nice aesthetic feel.
 
 ![Footer links](assets/images/footer-links.jpg)
 
@@ -142,26 +142,57 @@ There are links to social media websites included on every page, the icons were 
 
 ### Home Page
 
+The home page has the "About" section at the top of the page. The "About" section is describing the purpose of the website and encourages the user to explore the website. Scrolling down there is a small gallery of cats that are put up for adoption through the website alongside with a short description about each cats' personality. At the bottom of the page there are positive client reviews that have previously adopted through the website and were delighted with their newfound friends.
+
+![About us section screenshot](assets/images/screenshot-index-hero.png)
+![Our cats section screenshot](assets/images/screenshot-index-cats.png)
+![Testimonials section screenshot](assets/images/screenshot-index-testimonials.png)
 
 ### Services Page
+
+The services page contains the price list that the shelter offers in order to help the new owner assure that their new pet has all of the necessary vaccines and medical procedures done before going to their new forever home. Below the table there is a description about every service provided and why it's a good (and absolutely necessary) thing to do in order to have a healthy pet. At the bottom of the page there is a gallery of cats of all ages around the shelter.
+
+![Price list section screenshot](assets/images/screenshot-services-price.png)
+![Services description section screenshot](assets/images/screenshot-services-description.png)
+![First part of gallery section screenshot](assets/images/screenshot-services-gallery1.png)
+![Second part of gallery section screenshot](assets/images/screenshot-services-gallery2.png)
+
 ### Contact Page
 
+The contact page includes a simple contact form for possible clients and/or people that want to enquire about the cats that are at the shelter. All the fields are required to be completed in order for the form to be sent to the staff. There is also a "Reset" button to reset the form details. Below the contact form there is a table containing the opening hours, important information like the address, phone numbers and email address. There is also an embed map from Google Maps that pinpoints the location of the shelter.
+
+![Contact form section screenshot](assets/images/screenshot-contact-form.png)
+![Address and map section screenshot](assets/images/screenshot-contact-address.png)
+
 ## Future Implementations
+
+* Ideally I'd implement a donation section where people who love animals but maybe don't have the possibility to adopt can donate so the shelter can continue to provide the best care for the cats.
+* A larger database containing information about the cats that are cared for at the shelter.
+* A blog section where people can read about the successes and subsequent struggles that come with looking after the shelter to raise awareness.
+
 ## Accessibility
+
+* I have used aria-labels everywhere I could for screen readers
+* All images have alt-descriptions
+* The HTML contains a lot of semantic elements for an easy to follow structure
 
 # Technologies Used
 
-* Gitpod - The IDE where all the coding has been done
-* GitHub - Where the website is stored and all the updates are pushed on
-* HTML5 - The main structure of the website was created using HTML5
-* CSS - This was used in order to style the webpage in way that is pleasing to the eye
-* Python - Python3 was used to preview the website on a local http server
-* Balsamiq - To create the wireframes
+* **Gitpod** - The IDE where all the coding and commits have been done
+* **GitHub** - Where the website is stored and pushed. The website was deployed early via GitHub and it was constantly tested
+* **HTML5** - The main structure of the website was created using HTML5
+* **CSS** - This was used in order to style the webpage in way that is pleasing to the eye
+* **Python** - Python3 was used to preview the website on a local http server
+* **Balsamiq** - To create the wireframes
+* **Google Maps** - The map was taken from Google Maps Inc.
+* **Google Chrome** - All the testing and building took place using Google Chrome and its subsequent **DevTools**
+* **Font Awesome** - All the icons except for the one in browser tab were taken from Font Awesome
+* **Favicon** - The icon in the browser tab was taken from Favicon
 
 ## Languages Used
 
-* HTML
-* CSS
+* **HTML**
+* **CSS**
 
 # Deployment & Local Development
 
@@ -172,7 +203,7 @@ I deployed everything my website onto gitpages.
 
 ### How to Clone
 1. Log into your account on github
-2. Go to the repository of this project /petra66oriii/meowmatch/
+2. Go to the repository of this project /petra66orii/meowmatch/
 3. Click on the code button, and copy your preferred clone link.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
@@ -185,10 +216,35 @@ To fork the repository:
 
 # Testing
 
+## Validation
+
+### HTML Validator
+Every page was validated through the official W3C website.
+
+![HTML validator website screenshot](assets/images/html-validator.png)
+
+### CSS Validator
+The style.css file was validated by using both the official Jigsaw and the W3C validator.
+
+![CSS validator website screenshot](assets/images/jigsaw-css-validator.jpg)
+![CSS validator W3C screenshot](assets/images/w3c-css-validator.jpg)
+
+### Lighthouse
+
+I used DevTools' Lighthouse on Google Chrome for the testing and I was slightly upset to see that the performance was significantly lower than expected. One of the reasons the tester was implying was that I had installed a good few Chrome extensions which are subsequently slowing down the performance, and recommended I used Incognito mode for a fairer test, but it was still very low. 
+
+![Lighthouse performance test for the index page](assets/images/lighthouse-poor-performance.png)
+![Lighthouse performance test for the services page](assets/images/lighthouse-poor-performance-services.png)
+
+Further feedback from Lighthouse suggested that the images used within the website were very large and hence were affecting the performance. So, I've used the free **imageresizer** website to resize the images while maintaining their quality. The results were ok after that, performance-wise. 
+I've received a "Best Practices" score of 78 on the contact.html page because the form didn't contain an HTTPS connection. Since this website only contains HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
+
+
 ## Devices Used 
 Testing was done on the following devices: 
 
-### Laptops
+### Laptops![best-practices-contact](https://github.com/petra66orii/meowmatch/assets/127760064/7ad5c839-5fd3-4020-861c-dc8f93e2c0f3)
+
 * HP ProBook
 * Acer Aspire E15
 * Asus GL702Z
