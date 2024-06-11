@@ -362,7 +362,7 @@ textarea:focus {
 
 #opening-hours {
     margin: 20px;
-    flex-basis: 500px;
+    flex: 1 1 500px;
 }
 
 #contact-address {
@@ -371,14 +371,24 @@ textarea:focus {
     padding: 15px;
     background-color: #f7f3ef;
     border-radius: 8px;
+    flex: 2 1 300px;
 }
-
-/*#contact-address>.title-contact {
-
-}*/
 
 #contact-address>p {
     font-size: 90%;
+}
+
+#location-map {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    order: 3;
+}
+
+#location-map iframe {
+    /* The map will grow accordingly to take up the extra space */
+    flex: 8 1 auto;
 }
 
 .title-contact {
@@ -568,7 +578,7 @@ footer {
 
     #intro-services {
         font-size: 200%;
-        margin: 110px 0;
+        margin: 70px 0;
     }
 
     /* Gallery section */
@@ -597,16 +607,29 @@ footer {
 
 }
 
-/* Media query to adjust content on the services page for large screens (1024px and up) */
+/* Media query to adjust content for large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-        .cover img {
-            /* Used object-fit and object-position to fit image - credits to W3Schools*/
-            object-fit: cover;
-            object-position: center;
-        }
+    /* Services page */
+    .cover img {
+        /* Used object-fit and object-position to fit image - credits to W3Schools*/
+        object-fit: cover;
+        object-position: center;
+    }
 
-        #description-services {
-            max-width: 60%;
-            margin: auto;
-        }
+    #description-services {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    /* Contact page*/
+    #contact-form {
+        padding-left: 250px;
+        
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    #contact-form {
+        padding-left: 600px;
+    }    
 }
