@@ -239,11 +239,12 @@ I used DevTools' Lighthouse on Google Chrome for the testing and I was slightly 
 Further feedback from Lighthouse suggested that the images used within the website were very large and hence were affecting the performance. So, I've used the free **imageresizer** website to resize the images while maintaining their quality. The results were ok after that, performance-wise. 
 I've received a "Best Practices" score of 78 on the contact.html page because the form didn't contain an HTTPS connection. Since this website only contains HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
 
+![best-practices-contact](https://github.com/petra66orii/meowmatch/assets/127760064/7ad5c839-5fd3-4020-861c-dc8f93e2c0f3)
 
 ## Devices Used 
 Testing was done on the following devices: 
 
-### Laptops![best-practices-contact](https://github.com/petra66orii/meowmatch/assets/127760064/7ad5c839-5fd3-4020-861c-dc8f93e2c0f3)
+### Laptops
 
 * HP ProBook
 * Acer Aspire E15
