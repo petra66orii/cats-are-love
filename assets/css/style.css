@@ -1,4 +1,4 @@
-/* Import Google fonts*/
+/* Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Selector used to override default browser settings */
@@ -10,11 +10,13 @@
 
 /* Body general styles */
 body {
+    /*pale pink*/
     background-color: #F4D6CC;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Lora', 'Times New Roman', Times, serif;
+    /*dark grey*/
     color: #32373B;
     overflow-x: hidden;
 }
@@ -24,7 +26,9 @@ body {
     display: none;
 }
 
+/* General heading styles */
 h1 {
+    /*eggshell white*/
     color: #f7f3ef;
     font-family: 'Vollkorn', serif;
     font-size: 200%;
@@ -41,6 +45,7 @@ header {
     position: fixed;
     background-color: #32373B;
     padding: 0 1rem;
+    /*To make sure the header is always accessbile no matter where the user is on the website*/
     z-index: 999;
     width: 100%;
     display: flex;
@@ -118,6 +123,7 @@ main {
     flex-direction: column;
 }
 
+/* Used to clearly separate sections on the webpage */
 hr {
     border: 1px solid #32373B;
     margin: 15px 0;
@@ -126,6 +132,7 @@ hr {
 /* Hero section */
 #hero-image {
     background: url('../images/hero-image.webp') no-repeat center center / cover;
+    /*If the image fails to load, the text can still be visible*/
     background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 600px;
@@ -134,9 +141,10 @@ hr {
 
 #cover-text {
     text-align: center;
-    text-shadow: 2px 2px 5px #df2792;
+    text-shadow: 2px 2px 5px #df2792; /* Fuchsia shadow for a nice aesthetic feel */
     background-color: rgba(0, 0, 0, .5);
     color: #f7f3ef;
+    /*To ensure the text is in front of the background*/
     z-index: 99;
     margin-bottom: 15px;
     font-size: 170%;
@@ -173,6 +181,7 @@ h3 {
     margin: 20px 10px;
 }
 
+/*Flexbox to make the cats' boxes responsive and centered*/
 #images {
     display: flex;
     flex-flow: row wrap;
@@ -200,6 +209,7 @@ h3 {
 
 /* Testimonials section */
 
+/*Flexbox to make the clients' boxes responsive and centered*/
 #testimonials-box {
     display: flex;
     flex-flow: row wrap;
@@ -264,7 +274,9 @@ td {
     border-bottom: 1px solid #32373B;
 }
 
+/*To highlight the table services and prices*/
 tr:hover {
+    /*grey*/
     background-color: #b9b2b2;
 }
 
@@ -279,6 +291,8 @@ tr:hover {
 }
 
 /* Gallery section */
+
+/*Ensuring gallery section is responsive*/
 #gallery {
     display: flex;
     flex-flow: column wrap;
@@ -364,6 +378,7 @@ textarea:focus {
 
 #opening-hours {
     margin: 20px;
+    /*This will keep the table growing along with the screen*/
     flex: 1 1 500px;
 }
 
@@ -373,6 +388,7 @@ textarea:focus {
     padding: 15px;
     background-color: #f7f3ef;
     border-radius: 8px;
+    /*This is to allow the address block to grow for added responsiveness*/
     flex: 2 1 300px;
 }
 
@@ -385,6 +401,7 @@ textarea:focus {
     height: 300px;
     display: flex;
     flex-flow: row nowrap;
+    /*This keeps the map at the bottom of the page, just above the footer*/
     order: 3;
 }
 
@@ -405,9 +422,11 @@ textarea:focus {
 
 /* Footer */
 footer {
+    /*grey*/
     background-color: #4A5859;
     height: 42px;
     width: 100%;
+    /*This keeps the footer fixed to the bottom of the page*/
     position: fixed;
     bottom: 0;
 }
@@ -595,6 +614,7 @@ footer {
 
     /* Contact page*/
 
+    /*To use up more space as the screen becomes wider*/
     input {
         width: 400px;
     }
