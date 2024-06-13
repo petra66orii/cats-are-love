@@ -188,7 +188,8 @@ The contact page includes a simple contact form for possible clients and/or peop
 * **Google Chrome** - All the testing and building took place using Google Chrome and its subsequent **DevTools**
 * **Font Awesome** - All the icons except for the one in browser tab were taken from Font Awesome
 * **Favicon** - The icon in the browser tab was taken from Favicon
-
+* **ImageResizer** - This webiste was used to compress images
+  
 ## Languages Used
 
 * **HTML**
@@ -197,7 +198,7 @@ The contact page includes a simple contact form for possible clients and/or peop
 # Deployment & Local Development
 
 ## Deployment
-I deployed everything my website onto gitpages.
+I deployed the website through GitPages.
 
 ## Local Development
 
@@ -237,9 +238,25 @@ I used DevTools' Lighthouse on Google Chrome for the testing and I was slightly 
 ![Lighthouse performance test for the services page](assets/images/lighthouse-poor-performance-services.png)
 
 Further feedback from Lighthouse suggested that the images used within the website were very large and hence were affecting the performance. So, I've used the free **imageresizer** website to resize the images while maintaining their quality. The results were ok after that, performance-wise. 
-I've received a "Best Practices" score of 78 on the contact.html page because the form didn't contain an HTTPS connection. Since this website only contains HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
 
-![best-practices-contact](https://github.com/petra66orii/meowmatch/assets/127760064/7ad5c839-5fd3-4020-861c-dc8f93e2c0f3)
+![Lighthouse final performance](assets/images/lighthouse-final-index.png)
+![Lighthouse final performance](assets/images/lighthouse-final-services.png)
+![Lighthouse final performance](assets/images/lighthouse-final-contact.png)
+
+I've received a "Best Practices" score of 78 on the contact.html page because the form didn't contain an HTTPS connection. Since this website only requires HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
+
+![Best practices score contact page](assets/images/best-practices-contact.png)
+
+## Accessibility
+
+When I first tested the accessibility on the webiste using Wave, I got this error. 
+
+![Wave accessibility error](assets/images/wave-error.png)
+![Wave accessibility error explanation](assets/images/wave-error-card.png)
+
+This was because the label and input weren't used for their intended purpose. The fix was easy, though: an aria-label was applied to the `<label>` tag and the error was fixed.
+
+![Wave accesibility test error-free](assets/images/wave-accessibility-test.png)
 
 ## Devices Used 
 Testing was done on the following devices: 
@@ -277,3 +294,4 @@ This was an easy fix, as I only needed to set the position to 'fixed' and set th
 * Icon in the browser tab was taken from Favicon
 * Icon in the header was taken using Font Awesome
 * Color scheme was determined using Coolors
+* All the photos were taken from the royalty-free website pexels.com
