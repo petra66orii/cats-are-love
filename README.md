@@ -36,6 +36,7 @@ We highly encourage you to contact us, whether you're looking for a playful kitt
 5. **[Languages Used](#languages-used)**
 6. **[Deployment & Local Development](#deployment--local-development)**
    * [Deployment](#deployment)
+       + [How to Deploy](#how-to-deploy)
    * [Local Development](#local-development)
        + [How to Clone](#how-to-clone)
        + [How to Fork](#how-to-fork)
@@ -159,7 +160,7 @@ The home page has the "About" section at the top of the page. The "About" sectio
 
 ### Services Page
 
-The services page contains the price list that the shelter offers in order to help the new owner assure that their new pet has all of the necessary vaccines and medical procedures done before going to their new forever home. This helps the user not consider adoption an overwhleming process by letting the shelter take over when it comes to medical procedures. Below the table there is a description about every service provided and why it's a good (and absolutely necessary) thing to do in order to have a healthy pet. At the bottom of the page there is a gallery of cats of all ages around the shelter.
+The services page contains the price list that the shelter offers in order to help the new owner assure that their new pet has all of the necessary vaccines and medical procedures done before going to their new forever home. This helps the user not to think of adoption as an overwhleming process by letting the shelter take over when it comes to medical procedures. Below the table there is a description about every service provided and why it's a good (and absolutely necessary) thing to do in order to have a healthy pet. At the bottom of the page there is a gallery of cats of all ages around the shelter.
 
 ![Price list section screenshot](assets/images/screenshot-services-price.png)
 ![Services description section screenshot](assets/images/screenshot-services-description.png)
@@ -208,16 +209,25 @@ The contact page includes a simple contact form for possible clients and/or peop
 # Deployment & Local Development
 
 ## Deployment
-I deployed the website through GitPages.
+
+### How to Deploy
+1. Log in to your GitHub account
+2. Go to the repository of this project /petra66orii/meowmatch/
+3. Under the repository name, click on Settings
+4. On the left side of the page, click Pages
+5. Select 'Deploy from a branch' under the 'Build and deployment' section
+6. Set branch to 'root'
+7. Click 'Save'
+8. It might a few minutes to see the deployed website
 
 ## Local Development
 
 ### How to Clone
-1. Log into your account on github
+1. Log into your account on GitHub
 2. Go to the repository of this project /petra66orii/meowmatch/
-3. Click on the code button, and copy your preferred clone link.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+3. Click on the code button, and copy your preferred clone link
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
+5. Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter
 
 ### How to Fork
 To fork the repository:
@@ -233,6 +243,8 @@ To fork the repository:
 Every page was validated through the official W3C website.
 
 ![HTML validator website screenshot](assets/images/html-validator.png)
+![HTML validator website screenshot](assets/images/services-html-validator.png)
+![HTML validator website screenshot](assets/images/contact-html-validator.png)
 
 ### CSS Validator
 The style.css file was validated by using both the official Jigsaw and the W3C validator.
@@ -242,7 +254,7 @@ The style.css file was validated by using both the official Jigsaw and the W3C v
 
 ### Lighthouse
 
-I used DevTools' Lighthouse on Google Chrome for the testing and I was slightly upset to see that the performance was significantly lower than expected. One of the reasons the tester was implying was that I had installed a good few Chrome extensions which are subsequently slowing down the performance, and recommended I used Incognito mode for a fairer test, but it was still very low. 
+I used DevTools' Lighthouse on Google Chrome for testing and I was slightly upset to see that the performance was significantly lower than expected. One of the reasons the tester was implying was that I had installed a good few Chrome extensions which are slowing down the performance, and recommended I used Incognito mode for a fairer test, but it was still very low. 
 
 ![Lighthouse performance test for the index page](assets/images/lighthouse-poor-performance.png)
 ![Lighthouse performance test for the services page](assets/images/lighthouse-poor-performance-services.png)
@@ -253,7 +265,7 @@ Further feedback from Lighthouse suggested that the images used within the websi
 ![Lighthouse final performance](assets/images/lighthouse-final-services.png)
 ![Lighthouse final performance](assets/images/lighthouse-final-contact.png)
 
-I've received a "Best Practices" score of 78 on the contact.html page because the form didn't contain an HTTPS connection. Since this website only requires HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
+I've received a "Best Practices" score of 78 on the contact.html page because the Code Institute's form dump wasn't secured by HTTPs and it's external to the code. Since this website only requires HTML & CSS code, this problem is beyond the scope of the project and subsequently will be left as such.
 
 ![Best practices score contact page](assets/images/best-practices-contact.png)
 
@@ -304,6 +316,12 @@ Each device used the following browsers for testing:
 |  |  |  |  |  |
 | Social Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass |
 | --- | --- | --- | --- | --- |
+| `Home Page` |
+|   |   |   |   |
+| Our Cats Section Responsiveness | When window was resized the section was responsive and site layout looked as expected | Resized window | Section was responsive and looks good | Pass |
+| --- | --- | --- | --- | --- |
+| Testimonials Section Responsiveness | When window was resized the section was responsive and site layout looked as expected | Resized window | Section was responsive and looks good | Pass |
+| --- | --- | --- | --- | --- |
 | `Services Page` |
 |   |   |   |   |
 | Gallery Responsiveness | When window was resized gallery was responsive and site layout looked as expected | Resized window | Gallery was responsive and looks good | Pass |
@@ -333,7 +351,7 @@ This was an easy fix, as I only needed to set the position to 'fixed' and set th
 
 ## Content
 
-* Content was written by me with help from [ChatGPT](https://chatgpt.com) as well
+* Site-specific content was written by me with help from [ChatGPT](https://chatgpt.com) as well
 * Fonts were taken from [Google Fonts](https://fonts.google.com/)
 * Icon in the browser tab was taken from [Favicon](https://favicon.io/)
 * Icon in the header was taken using [Font Awesome](https://fontawesome.com/)
