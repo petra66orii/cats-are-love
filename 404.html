@@ -25,11 +25,13 @@
     </header>
     <!--Main section-->
     <main>
-        <h2>Ooops! Looks like curiosity killed... the webpage</h2>
-        <h3>There's nothing to see here. If you find yourself here, you can click on the links
+        <h2 id="error-404">Ooops! Looks like curiosity killed... the webpage.</h2>
+        <h3 id="error-404-sub">There's nothing to see here. If you find yourself here, you can click on the links
             below to either go back to our home page or contact us.</h3>
-        <button><a href="index.html">Go to HomePage</a></button>
-        <button><a href="contact.html">Contact Us</a></button>
+        <div id="buttons">
+            <button><a href="index.html" class="redirect-button">Go to HomePage</a></button>
+            <button><a href="contact.html" class="redirect-button">Contact Us</a></button>
+        </div>
     </main>
     <!--Footer section-->
     <footer>
@@ -48,6 +50,8 @@
                         class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
+    <!--Font Awesome kit-->
+    <script src="https://kit.fontawesome.com/c12cb71691.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

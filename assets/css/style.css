@@ -310,7 +310,6 @@ tr:hover {
 }
 
 /* Contact page */
-
 #contact {
     background: url("../images/contact-image.webp");
     background-size: cover;
@@ -418,6 +417,34 @@ textarea:focus {
     text-decoration: underline;
     padding: 5px;
     margin-top: 15px;
+}
+
+/* 404 Error Page */
+#error-404 {
+    font-size: 200%;
+    text-align: center;
+}
+
+#error-404-sub {
+    font-size: 150%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: fit-content;
+}
+
+.redirect-button {
+    text-align: center;
+    font-size: 100%;
+    color: #32373B;
 }
 
 /* Footer */
