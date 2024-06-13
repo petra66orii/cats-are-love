@@ -40,13 +40,22 @@ We highly encourage you to contact us, whether you're looking for a playful kitt
        + [How to Clone](#how-to-clone)
        + [How to Fork](#how-to-fork)
 7. **[Testing](#testing)**
+   * [Validation](#validation)
+       + [HTML Validator](#html-validator)
+       + [CSS Validator](#css-validator)
+       + [Lighthouse](#lighthouse)
+   * [Accessibility](#accessibility)
    * [Devices Used](#devices-used)
        + [Laptops](#laptops)
        + [Mobile Devices](#mobile-devices)
+       + [Browsers Used](#browsers-used)
+   * [Full Testing](#full-testing)
    * [Bugs](#bugs)
 8. **[Credits](#credits)**
    * [Code Used](#code-used)
    * [Content](#content)
+   * [Acknowledgements](#acknowledgements)
+
 
 # Target Audience
 
@@ -118,7 +127,7 @@ I used Balsamiq to create the wireframes. These wireframes were designed before 
 
 ### Navigation Bar
 
-A navigation bar is featured on all three pages for ease of use and accessibility. There are two different versions of the navbar depending on whether you're navigating the website on mobile or desktop, hence adding responsiveness to the webpage.
+A navigation bar is featured on all three pages for ease of use and accessibility. There are two different versions of the navbar depending on whether you're navigating the website on mobile or desktop, hence adding responsiveness to the webpage. The active page is shown by having an oval around the text.
 
 Desktop navigation bar
 
@@ -142,7 +151,7 @@ There are links to social media websites included on every page, the icons were 
 
 ### Home Page
 
-The home page has the "About" section at the top of the page. The "About" section is describing the purpose of the website and encourages the user to explore the website. Scrolling down there is a small gallery of cats that are put up for adoption through the website alongside with a short description about each cats' personality. At the bottom of the page there are positive client reviews that have previously adopted through the website and were delighted with their newfound friends.
+The home page has the "About" section at the top of the page. The "About" section is describing the purpose of the website and encourages the user to explore the website. Scrolling down there is a small gallery of cats that are put up for adoption through the website alongside with a short description about each cats' personality, so the user can have an idea about the specific cats' behaviour. At the bottom of the page there are positive client reviews that have previously adopted through the website and were delighted with their newfound friends; this gives the user trust into the shelter.
 
 ![About us section screenshot](assets/images/screenshot-index-hero.png)
 ![Our cats section screenshot](assets/images/screenshot-index-cats.png)
@@ -150,7 +159,7 @@ The home page has the "About" section at the top of the page. The "About" sectio
 
 ### Services Page
 
-The services page contains the price list that the shelter offers in order to help the new owner assure that their new pet has all of the necessary vaccines and medical procedures done before going to their new forever home. Below the table there is a description about every service provided and why it's a good (and absolutely necessary) thing to do in order to have a healthy pet. At the bottom of the page there is a gallery of cats of all ages around the shelter.
+The services page contains the price list that the shelter offers in order to help the new owner assure that their new pet has all of the necessary vaccines and medical procedures done before going to their new forever home. This helps the user not consider adoption an overwhleming process by letting the shelter take over when it comes to medical procedures. Below the table there is a description about every service provided and why it's a good (and absolutely necessary) thing to do in order to have a healthy pet. At the bottom of the page there is a gallery of cats of all ages around the shelter.
 
 ![Price list section screenshot](assets/images/screenshot-services-price.png)
 ![Services description section screenshot](assets/images/screenshot-services-description.png)
@@ -159,7 +168,7 @@ The services page contains the price list that the shelter offers in order to he
 
 ### Contact Page
 
-The contact page includes a simple contact form for possible clients and/or people that want to enquire about the cats that are at the shelter. All the fields are required to be completed in order for the form to be sent to the staff. There is also a "Reset" button to reset the form details. Below the contact form there is a table containing the opening hours, important information like the address, phone numbers and email address. There is also an embed map from Google Maps that pinpoints the location of the shelter.
+The contact page includes a simple contact form for possible clients and/or people that want to enquire about the cats that are in the shelter. All the fields are required to be completed in order for the form to be sent to the staff. There is also a "Reset" button to reset the form details. Below the contact form there is a table containing the opening hours, important information like the address, phone numbers and email address. There is also an embed map from Google Maps that pinpoints the location of the shelter. All this information helps the user find the place and can count on the staffs' availability for enquiries.
 
 ![Contact form section screenshot](assets/images/screenshot-contact-form.png)
 ![Address and map section screenshot](assets/images/screenshot-contact-address.png)
@@ -174,7 +183,7 @@ The contact page includes a simple contact form for possible clients and/or peop
 
 * I have used aria-labels everywhere I could for screen readers
 * All images have alt-descriptions
-* The HTML contains a lot of semantic elements for an easy to follow structure
+* The HTML contains a lot of semantic elements for an easy-to-follow structure
 
 # Technologies Used
 
@@ -185,10 +194,11 @@ The contact page includes a simple contact form for possible clients and/or peop
 * **Python** - Python3 was used to preview the website on a local http server
 * **Balsamiq** - To create the wireframes
 * **Google Maps** - The map was taken from Google Maps Inc.
-* **Google Chrome** - All the testing and building took place using Google Chrome and its subsequent **DevTools**
+* **Google Chrome** - All the testing and building took place using Google Chrome
 * **Font Awesome** - All the icons except for the one in browser tab were taken from Font Awesome
 * **Favicon** - The icon in the browser tab was taken from Favicon
 * **ImageResizer** - This webiste was used to compress images
+* **DevTools** - Using Google Chromes' DevTools helped me play with the code to find the best properties for my webpage
   
 ## Languages Used
 
@@ -262,7 +272,6 @@ This was because the label and input weren't used for their intended purpose. Th
 Testing was done on the following devices: 
 
 ### Laptops
-
 * HP ProBook
 * Acer Aspire E15
 * Asus GL702Z
@@ -271,6 +280,40 @@ Testing was done on the following devices:
 * iPhone 11
 * Samsung Galaxy Flip 5
 * Samsung Galaxy S10
+
+### Browsers Used
+Each device used the following browsers for testing:
+
+* Google Chrome
+* Microsoft Edge
+* Safari (Mobile only)
+* Samsung Internet (Mobile only)
+
+## Full Testing
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|  |  |  |  |  |
+| MeowMatch Logo & Title | When clicked the user will be redirected to the Home page | Clicked Logo and title | Redirected to the Home page | Pass |
+| Home Page Link | When clicked the user will be redirected to the Home page | Clicked link | Redirected to the Home page | Pass |
+| Services Link | When clicked the user will be redirected to the Services page | Clicked link | Redirected to the Services page | Pass |
+| Contact Link | When clicked the user will be redirected to the Contact page. | Clicked link | Redirected to the Contact page | Pass |
+| --- | --- | --- | --- | --- |
+| `Footer` |
+|  |  |  |  |  |
+| Social Icons | When clicked the user will be redirected to the appropriate social media pages in a new window. | Clicked icon | Redirected to the social media page in a new window. | Pass |
+| --- | --- | --- | --- | --- |
+| `Services Page` |
+|   |   |   |   |
+| Gallery Responsiveness | When window was resized gallery was responsive and site layout looked as expected | Resized window | Gallery was responsive and looks good | Pass |
+| --- | --- | --- | --- | --- |
+| `Contact Page` |
+|   |   |   |   |
+| Google Map | Map should be interactive when clicked on | Clicked on map | Map zoomed in and reacted as expected | Pass |
+| Contact Form | When items were left out the was a message asking to fill the section in | Clicked submit while leaving form unfillled | Form requested sections to be filled in | Pass |
+
+ - - -
 
 ## Bugs
 
@@ -290,8 +333,15 @@ This was an easy fix, as I only needed to set the position to 'fixed' and set th
 
 ## Content
 
-* Fonts were taken from Google Fonts
-* Icon in the browser tab was taken from Favicon
-* Icon in the header was taken using Font Awesome
-* Color scheme was determined using Coolors
-* All the photos were taken from the royalty-free website pexels.com
+* Content was written by me with help from [ChatGPT](https://chatgpt.com) as well
+* Fonts were taken from [Google Fonts](https://fonts.google.com/)
+* Icon in the browser tab was taken from [Favicon](https://favicon.io/)
+* Icon in the header was taken using [Font Awesome](https://fontawesome.com/)
+* Color scheme was determined using [Coolors](https://coolors.co/)
+* All the photos were taken from the royalty-free website [Pexels](https://pexels.com)
+* I used [Stack OverFlow](https://stackoverflow.com) to solve some code-related problems 
+
+## Acknowledgements
+
+* I would like to thank my partner Gerry and my brother Eric for providing me feedback from the perspective of a user to make sure the website is working at its best.
+* I would also like to thank my mentor Luke for giving honest feedback and guiding me to create a properly designed website.  
